@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile-Sized iframe</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        .mobile-frame {
+            width: 375px;
+            height: 812px;
+            border: 16px solid #333;
+            border-radius: 36px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="mobile-frame">
+        <iframe src="https://dashboard.heatmap.com/proxy/getUrl?url=https://www.gloskinbeauty.com/" title="Mobile View of GloSkin Beauty"></iframe>
+    </div>
+</body>
+</html>
